@@ -153,6 +153,7 @@ h3 {
     padding-top: 50px;
     padding-bottom: 50px;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .footer-links{
     width: 40%;
@@ -164,6 +165,7 @@ h3 {
     margin: auto;
     display: flex;
     justify-content:space-evenly;
+    flex-wrap: wrap;
    
 }
 .footer-links>ul li{
@@ -172,3 +174,14 @@ h3 {
    color: whitesmoke;
    
 }
+.footer-links>ul li a{
+    text-decoration: none;
+    color: black
+    
+ }
+ .footer-links>ul li a:hover{
+    list-style: none;
+    text-decoration: dotted;
+    color: whitesmoke;
+    
+ }

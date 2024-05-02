@@ -140,3 +140,35 @@ h3 {
 
 /* *####################### */
 /* *########  footer ######## */
+#footer{
+    width: 100%;
+    height: auto;
+    background-color:#6e8898 ;
+    margin: auto;
+}
+#footer-wrapper{
+    display: flex;
+    margin:0 auto;
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-evenly;
+}
+.footer-links{
+    width: 40%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-links>ul{
+    margin: auto;
+    display: flex;
+    justify-content:space-evenly;
+   
+}
+.footer-links>ul li{
+   list-style: none;
+   text-decoration: none;
+   color: whitesmoke;
+   
+}

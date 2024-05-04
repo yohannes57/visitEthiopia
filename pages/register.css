@@ -1,0 +1,65 @@
+#register {
+  width: 100%;
+  background-color: white;
+  /* height: auto; */
+  position: absolute;
+  top: 60px;
+  padding-top: 50px;
+  height: max-content;
+}
+#register-signup {
+  width: 30%;
+  padding: 20px;
+  margin: auto;
+  height: auto;
+  box-shadow: 2px 1px rgb(228, 219, 219);
+  background-color: whitesmoke;
+  z-index: 2;
+  cursor: pointer;
+}
+#register-signup form {
+  margin: auto;
+  border: 1px solid green;
+  padding: 10px;
+  width: 100%;
+}
+#register-signup form input,
+label,
+button {
+  padding: 5px;
+  width: 100%;
+}
+#bt {
+  text-align: center;
+  padding-bottom: 2px;
+}
+#register-signup button {
+  color: red;
+  /* box-shadow: 1px 1px red; */
+  background-color: rgb(190, 205, 193);
+  font-size: x-large;
+  font-weight: 300;
+  width: 50%;
+  text-align: center;
+  border-radius: 50px 20px;
+  margin: 10px;
+}
+#checkbox {
+  width: 5%;
+}
+#signin {
+  padding-top: 10px;
+  color: red;
+  text-align: right;
+  border-top: 1px solid black;
+}
+#signin h4 a {
+  color: red;
+}
+#footer {
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  top: 685px;
+  height: max-content;
+}

@@ -140,73 +140,107 @@ h3 {
   margin: 5px;
   padding: 5px;
 }
+/* fourth section */
+#fourth-section {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+#fourth {
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#fourth-one {
+  display: flex;
+  width: 100%;
+  margin: 100px auto;
+  justify-content: space-around;
+  padding: 30px;
+  margin-right: 5px;
+}
+#fourth-desc {
+  width: 45%;
+}
+#fourth-img {
+  width: 45%;
+}
+#fourth-img img {
+  width: 100%;
+}
+#fourth-desc {
+  width: 100%;
+}
+#fourth-desc-parg {
+  padding-top: 20px;
+  margin: 10px;
+}
 
 /* *####################### */
 /* *########  footer ######## */
-#footer{
-    width: 100%;
-    height: auto;
-    background-color: whitesmoke;
-    margin: auto;
+#footer {
+  width: 100%;
+  height: auto;
+  background-color: whitesmoke;
+  margin: auto;
 }
-#footer-wrapper{
-    display: flex;
-    margin:0 auto;
-    width: 80%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+#footer-wrapper {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
-.footer-links{
+.footer-links {
   width: 40%;
   margin: auto;
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.footer-links>ul{
-    margin: auto;
-    display: flex;
-    justify-content:space-evenly;
-    flex-wrap: wrap;
-   
+.footer-links > ul {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
-.footerList li{
-    list-style: none;
-    text-decoration: none;
-    color: black;
+.footerList li {
+  list-style: none;
+  text-decoration: none;
+  color: black;
 }
-.footerList li a:hover{
-    color: green;
-    font-size: x-large;
+.footerList li a:hover {
+  color: green;
+  font-size: x-large;
 }
 
-.footer-links>ul li{
-   list-style: none;
-   text-decoration: none;
-   color: whitesmoke;
-   
+.footer-links > ul li {
+  list-style: none;
+  text-decoration: none;
+  color: whitesmoke;
 }
-.footer-links>ul li a{
-    text-decoration: none;
-    color: black
-    
-    
- }
- .footer-links>ul li a:hover{
-    list-style: none;
-    text-decoration: dotted;
-    color: green;
-    
- }
- .fa-brands{
-    padding-right:1px ;
- }
- #copyright{
-    padding: 5px;
-    text-align: center;
- }
- #copyright li{
-    list-style: none;
-    color: rgb(204, 54, 54);
- }
+.footer-links > ul li a {
+  text-decoration: none;
+  color: black;
+}
+.footer-links > ul li a:hover {
+  list-style: none;
+  text-decoration: dotted;
+  color: green;
+}
+.fa-brands {
+  padding-right: 1px;
+}
+#footer-img {
+  padding-top: 40px;
+}
+#copyright {
+  padding: 5px;
+  text-align: center;
+}
+#copyright li {
+  list-style: none;
+  color: rgb(204, 54, 54);
+}

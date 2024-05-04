@@ -156,7 +156,7 @@ h3 {
   display: flex;
   width: 100%;
   margin: 100px auto;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 30px;
   margin-right: 5px;
 }
@@ -168,9 +168,11 @@ h3 {
 }
 #fourth-img img {
   width: 100%;
+  padding: 2px;
 }
 #fourth-desc {
   width: 100%;
+  padding: 5px;
 }
 #fourth-desc-parg {
   padding-top: 20px;

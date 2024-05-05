@@ -247,3 +247,7 @@ h3 {
   list-style: none;
   color: rgb(204, 54, 54);
 }
+.thankyouImg {
+  width: 80%;
+  height: 200px;
+}

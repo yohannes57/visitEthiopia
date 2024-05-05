@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="facts.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th,
+        td {
+            padding: 18px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        h4,
+        h2 {
+            text-align: center;
+        }
+
+        #facts {
+            width: 100%;
+            background-color: white;
+            position: absolute;
+            top: 60px;
+            padding-top: 50px;
+            height: max-content;
+            z-index: -1;
+        }
+
+        #facts-page {
+            width: 80%;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="header" class="navbar navbar-expand-lg bg-body-secondary mb-2">
+        <div id="header-nav" class="container-fluid">
+            <a id="header-nav-logo" class="navbar-brand" href="/index.html"><span style="color:green">ETH</span><span
+                    style="color:yellow">IOP</span><span style="color: red;">IA</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul id="header-nav-main" class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"></a>
+                    </li>
+                    <!--  -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/index.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            AboutEthiopia
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item"
+                                    href="/https://www.bing.com/maps?osid=ab9e8e20-8437-47b8-8edd-3efc8abb7d6e&cp=9.046643~38.747262&lvl=14.5&pi=0&v=2&sV=2&form=S00027">location</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">History</a></li>
+                            <li><a class="dropdown-item" href="#">Culture</a></li>
+                            <li><a class="dropdown-item" href="#">Facts</a></li>
+                            <li><a class="dropdown-item" href="#">Religion</a></li>
+                            <li><a class="dropdown-item" href="#">Goverment</a></li>
+                        </ul>
+                    </li>
+                    <!--  -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/index.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Destination
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">location</a></li>
+                            <li><a class="dropdown-item" href="#">History</a></li>
+                            <li><a class="dropdown-item" href="#">Culture</a></li>
+                            <li><a class="dropdown-item" href="#">Facts</a></li>
+                            <li><a class="dropdown-item" href="#">Religion</a></li>
+                            <li><a class="dropdown-item" href="#">Goverment</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="/index.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            ThingsToDo
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">location</a></li>
+                            <li><a class="dropdown-item" href="#">History</a></li>
+                            <li><a class="dropdown-item" href="#">Culture</a></li>
+                            <li><a class="dropdown-item" href="#">Facts</a></li>
+                            <li><a class="dropdown-item" href="#">Religion</a></li>
+                            <li><a class="dropdown-item" href="#">Goverment</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/index.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            BasicInfo
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">location</a></li>
+                            <li><a class="dropdown-item" href="#">History</a></li>
+                            <li><a class="dropdown-item" href="#">Culture</a></li>
+                            <li><a class="dropdown-item" href="#">Facts</a></li>
+                            <li><a class="dropdown-item" href="#">Religion</a></li>
+                            <li><a class="dropdown-item" href="#">Goverment</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button id="search" class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <a id="header-nav-help" class="btn btn-outline-success " href="./login.html"
+                    target="_parent">NeedHelp?</a>
+            </div>
+        </div>
+    </nav>
+    <!-- facts page -->
+    <div id="facts">
+        <div id="facts-page">
+            <div id="fact-page-introduction">
+                <h2>Introduction to Ethiopia</h2>
+
+                <p>Ethiopia, officially known as the Federal Democratic Republic of Ethiopia, is a landlocked country
+                    located in the
+                    Horn of Africa. It is the second-most populous nation on the African continent, bordered by Eritrea
+                    to the north,
+                    Djibouti and Somalia to the east, Sudan and South Sudan to the west, and Kenya to the south.</p>
+
+                <p>Ethiopia has a rich history dating back thousands of years, with archaeological findings suggesting
+                    that it was one
+                    of the earliest regions to be inhabited by humans. The country is renowned for its diverse cultural
+                    heritage,
+                    ancient civilizations, and unique traditions.</p>
+
+                <p>With a landscape characterized by highlands, plateaus, and deep valleys, Ethiopia boasts stunning
+                    natural beauty and
+                    biodiversity. The Great Rift Valley, which traverses the country from northeast to south, is a
+                    prominent
+                    geographical feature.</p>
+
+                <p>Ethiopia's economy is predominantly agrarian, with agriculture being the mainstay of its economy. The
+                    country is
+                    known for its coffee production, with Ethiopian coffee being highly prized globally. In recent
+                    years, Ethiopia has
+                    also seen significant growth in other sectors such as manufacturing and services.</p>
+            </div>
+            <div id="facts-page-table">
+                <h4>Some Facts</h4>
+
+                <table>
+                    <tr>
+                        <th>Fact</th>
+                        <th>Details</th>
+                    </tr>
+                    <tr>
+                        <td>Number of Regions</td>
+                        <td>13(thirteen)++</td>
+                    </tr>
+                    <tr>
+                        <td>Number of Nations/tribes</td>
+                        <td>80+</td>
+                    </tr>
+                    <tr>
+                        <td>Number of Languages</td>
+                        <td>80+</td>
+                    </tr>
+                    <tr>
+                        <td>Area of the Land</td>
+                        <td>1.10 Millions square kilometers</td>
+                    </tr>
+                    <tr>
+                        <td>Weather</td>
+                        <td>very hot to very cold& most area average </td>
+                    </tr>
+                    <tr>
+                        <td>Seasons</td>
+                        <td>4 four</td>
+                    </tr>
+                    <tr>
+                        <td>Population</td>
+                        <td>120,000,000</td>
+                    </tr>
+                    <tr>
+                        <td>Young Population</td>
+                        <td>70%</td>
+                    </tr>
+                    <tr>
+                        <td>Food</td>
+                        <td>Vege,Meat,Enjera is the dominant</td>
+                    </tr>
+                    <tr>
+                        <td>Culture</td>
+                        <td>Rich and Diversify</td>
+                    </tr>
+                    <tr>
+                        <td>Religion</td>
+                        <td>68% Christian </td>
+                    </tr>
+                    <tr>
+                        <td>Capital City</td>
+                        <td>Addis Abeba</td>
+                    </tr>
+                    <tr>
+                        <td>Source of Econom</td>
+                        <td>Agro Industry</td>
+                    </tr>
+                    <tr>
+                        <td>prime Minister</td>
+                        <td>Abiy Ahemed</td>
+                    </tr>
+                    <!-- Add more rows for additional facts -->
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

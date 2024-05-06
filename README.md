@@ -4,7 +4,7 @@ Welcome to VisitEthiopia! This repository hosts the source code for the VisitEth
 
 ## About
 
-VisitEthiopia is a website dedicated to promoting tourism in Ethiopia. It provides information about various tourist attractions, historical sites, cultural events, and travel tips to help visitors plan their trips to Ethiopia.
+VisitEthiopia is a website dedicated to promoting tourism in Ethiopia. It provides information about various tourist attractions, historical sites, cultural events, and travel tips to help visitors plan their trips to Ethiopia. it is not a finished project ,its development is on going .
 
 ## Features
 
@@ -35,8 +35,8 @@ We welcome contributions from the community to improve VisitEthiopia! If you hav
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under per scholas .
 
 ## Contact
 
-For any inquiries or feedback, please contact us at visitethiopia@example.com.
+For any inquiries or feedback, It would be > visitethiopia@gmail.com 
